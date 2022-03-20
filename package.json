@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-starterpack",
+  "version": "1.0.0",
+  "description": "Node.js application starter pack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitouanPrsDev/nodejs-starterpack.git"
+  },
+  "author": "Titouan Paris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitouanPrsDev/nodejs-starterpack/issues"
+  },
+  "homepage": "https://github.com/TitouanPrsDev/nodejs-starterpack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "typeorm": "^0.3.0"
+  }
+}
